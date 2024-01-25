@@ -14,7 +14,7 @@ export default function Home() {
                 <h1 className="font-black text-6xl">
                     <span style={{ color: 'black', fontWeight: 'bold'}}>
                         <Typewriter
-                            words={['What is Mentify', 'AI Mental Support']}
+                            words={['What is Learnforge', 'AI Education Support']}
                             loop={1000}
                             cursor
                             cursorStyle='_'
@@ -24,13 +24,13 @@ export default function Home() {
                         />
                     </span>
                 </h1>
-                <p className="text-xl">Mentify is a platform for mental health awareness and support.</p>
+                <p className="text-xl">An application to help students in learning by leveraging the power of LLM'S</p>
                 <Link href="/Guide-Eval" className={`font-bold text-xl max-w-max py-3 px-10 rounded-sm transition-all ease-in-out duration-400 ${styles.button} relative`} onClick={() => toast.success("Get started by choosing a picture in the left side and then select a option on right side")}>
                     <p className={styles.p}>Get Started</p>
                 </Link>
             </div>
             <div>
-                <Image src="/neurology.png" alt="Swap ai" width={400} height={400} />
+                <Image src="/ai-book.png" alt="Swap ai" width={400} height={400} />
             </div>
         </main>
     );

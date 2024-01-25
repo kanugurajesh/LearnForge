@@ -116,8 +116,8 @@ export default function Home() {
       <Toaster />
       <Link href="/">
         <div className="flex gap-2 items-center font-bold">
-          <Image src="/consultation.png" alt="logo" width={30} height={30} />
-          <h1 className="text-2xl">Mentify</h1>
+          <Image src="/chat.svg" alt="logo" width={30} height={30} />
+          <h1 className="text-2xl">LearnForge</h1>
         </div>
       </Link>
       <div className={`flex flex-col mt-2 ${styles.chatHistory}`} ref={chatContainerRef}>
@@ -125,7 +125,7 @@ export default function Home() {
           <div key={chat.id} className="mb-5 relative">
             <div className={`p-5 rounded-md ${chat.sender == "user" ? styles.user : styles.model}`}>
               <div className={styles.icons}>
-                <Image src={chat.sender == "user" ? "/patient.png" : "/doctor.png"} alt="logo" width={30} height={30} />
+                <Image src={chat.sender == "user" ? "/user.svg" : "/chat.svg"} alt="logo" width={30} height={30} />
               </div>
               <Markdown className="mt-2">
                 {chat.message}

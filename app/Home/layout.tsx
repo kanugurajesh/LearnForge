@@ -21,11 +21,11 @@ export default function HomeLayout({
     return (
         <div className={`${showMenu ? "overflow-hidden h-screen" : ''}`}>
             <nav className='relative'>
-                <div className='flex p-10 items-center justify-between font-bold pb-40'>
+                <div className='flex pt-10 pl-10 pr-10 items-center justify-between font-bold pb-[100px]'>
                     <div className='flex items-center gap-3'>
                         <Link href="/" className='flex items-center '>
-                            <Image src="/logo.png" alt="Logo" width={35} height={35} className='mr-[0.8px]'/>
-                            <h1 className='text-2xl'>entify</h1>
+                            <Image src="/logo.png" alt="Logo" width={35} height={35} className='mr-[0.9px]'/>
+                            <h1 className='text-2xl'>earnForge</h1>
                         </Link>
                     </div>
 

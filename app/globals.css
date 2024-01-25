@@ -66,9 +66,9 @@
   }
 }
  
-.backg {
+/* .backg {
   background-color: #d6e2ea;
-}
+} */
 
 @layer base {
   * {

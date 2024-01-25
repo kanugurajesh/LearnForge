@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Mentify',
-  description: 'Mentify is a platform for mental health awareness and support.',
+  title: 'LearnForge',
+  description: "An application to help students in learning by leveraging the power of LLM'S",
 }
 
 export default function RootLayout({
