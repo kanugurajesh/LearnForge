@@ -1,0 +1,18 @@
+export const data = {
+    "Anger":"Explains what anger is, and how to deal with it in a constructive and healthy way.",
+    "Anxiety": "Explains anxiety and panic attacks, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "Bipolar": "Explains what bipolar disorder is, what kinds of treatment are available, and how you can help yourself cope. Also provides guidance on what friends and family can do to help.",
+    "Depression": "Explains depression, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "WeightLoss": "Explains eating problems, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "Fear": "Git is a version control system that allows you to track changes to files and coordinate work on those files among multiple people.",
+    "Loneliness": "Explains loneliness, giving practical suggestions for what you can do and where you can go for support.",
+    "Insomnia": "Explains insomnia and other sleep problems, giving practical suggestions for what you can do and where you can go for support.",
+    "HearingVoices": "Explains what it is like to hear voices, where to go for help if you need it, and what others can do to support someone who is struggling with hearing voices.",
+    "PanicAttack": "Explains what panic attacks are, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "Paranoia": "Explains paranoia, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "Phobia": "Explains phobias, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "Psychosis": "Explains what psychosis is, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "Schizophrenia": "Explains schizophrenia, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "SelfConfidence": "Explains how to increase your self-esteem, giving practical suggestions for what you can do and where you can go for support.",
+    "SelfHarm": "Explains self-harm, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.", 
+}
