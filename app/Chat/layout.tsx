@@ -54,7 +54,7 @@ export default function RootLayout({
                     <Link href="/Imagine" className={`${styles.a}`}>Imagine</Link>
                   </li>
                   <li>
-                    <Link href="/Chat" className={`${styles.a}`}>Council</Link>
+                    <Link href="/Chat" className={`${styles.a}`}>Doubt</Link>
                   </li>
                   <li>
                     <Link href="https://kanugurajesh.github.io" className={`${styles.a}`}>Blog</Link>

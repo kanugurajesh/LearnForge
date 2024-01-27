@@ -29,7 +29,7 @@ export default function Home() {
                     <p className={styles.p}>Get Started</p>
                 </Link>
             </div>
-            <div>
+            <div className="max-w-[900px] hidden md:block">
                 <Image src="/ai-book.png" alt="Swap ai" width={400} height={400} />
             </div>
         </main>

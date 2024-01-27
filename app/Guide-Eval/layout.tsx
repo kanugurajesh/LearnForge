@@ -41,10 +41,10 @@ export default function HomeLayout({
                                 <Link href="/Home" className={`${styles.a}`}>Home</Link>
                             </li>
                             <li>
-                                <Link href="/Therapy" className={`${styles.a}`}>Therapist</Link>
+                                <Link href="/Teacher" className={`${styles.a}`}>Teacher</Link>
                             </li>
                             <li>
-                                <Link href="https://kanugurajesh-document-qa-app-8ft9g0.streamlit.app/" className={`${styles.a}`}>Health-Q/A</Link>
+                                <Link href="https://kanugurajesh-document-qa-app-8ft9g0.streamlit.app/" className={`${styles.a}`}>Pdf-Q/A</Link>
                             </li>
                             <li>
                                 <Link href="/ImageRekog" className={`${styles.a}`}>Rekog</Link>
@@ -57,7 +57,6 @@ export default function HomeLayout({
                     </div>
                 </div>
             </nav>
-            {/* {window.innerWidth > 750 || !showMenu ? children : ''} */}
             {!showMenu ? children : ''}
         </div>
     )
