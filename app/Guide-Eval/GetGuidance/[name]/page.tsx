@@ -65,6 +65,8 @@ export default function Page({ params }: { params: { name: string } }) {
         // get the response from the server
         const data = await response.json();
 
+        console.log(data);
+
         setLoading(false);
 
         if (data.error) {
