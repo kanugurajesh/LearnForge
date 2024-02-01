@@ -46,7 +46,7 @@ export default function Page({ params }: { params: { name: string } }) {
         // clear the output
         setOutput("The response will appear here...");
 
-        toast.success("Creating a response for what causes and cure for " + name);
+        toast.success("Creating a response for how to learn " + name);
 
         // set the loading state to true
         setLoading(true);
@@ -103,7 +103,7 @@ export default function Page({ params }: { params: { name: string } }) {
             <div className='flex flex-col items-center h-screen gap-6'>
                 <h1 className='text-4xl font-extrabold mt-1'>{name}</h1>
                 {/* {image && <Image src={image} alt="image" width={300} height={300} />} */}
-                <h1 className='text-1xl font-bold mt-1'>Creating a response for who to learn <span className="text-red-500">{name}</span></h1>
+                <h1 className='text-1xl font-bold mt-1'>Creating a response for how to learn <span className="text-red-500">{name}</span></h1>
                 <Card className={cn("p-5 whitespace-normal min-w-[320px] sm:w-[500px] md:min-w-[600px]")}>
                     <div className={styles.textwrapper}>
                         <Markdown className={cn("w-full h-full ")}>{`${output}`}</Markdown>
