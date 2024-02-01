@@ -22,7 +22,7 @@ export default function HomeLayout({
       <nav className="relative">
         <div className="flex p-10 items-center justify-between font-bold">
           <div className="flex items-center gap-3">
-            <Link href="/" className="flex items-center ">
+            <Link href="/Home" className="flex items-center ">
               <Image
                 src="/logo.png"
                 alt="Logo"
