@@ -28,9 +28,9 @@ export default function HomeLayout({
                 alt="Logo"
                 width={35}
                 height={35}
-                className="mr-[0.8px]"
+                className="mr-[0.9px]"
               />
-              <h1 className="text-xl">duJoy</h1>
+              <h1 className="text-2xl">earnForge</h1>
             </Link>
           </div>
 
@@ -67,10 +67,7 @@ export default function HomeLayout({
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/Rekog"
-                  className={`${styles.a}`}
-                >
+                <Link href="/Rekog" className={`${styles.a}`}>
                   Rekog
                 </Link>
               </li>
