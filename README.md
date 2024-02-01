@@ -46,6 +46,42 @@ I have integrated the following AI-powered resources into the application to pro
 - Dynamic Tests
 - Admin Panel
 
+## Screenshots
+
+![Screenshot 2024-02-01 091839](https://github.com/kanugurajesh/LearnForge/assets/77529419/600436a7-dce9-4979-9853-b4060e4771aa)
+
+![Screenshot 2024-02-01 091853](https://github.com/kanugurajesh/LearnForge/assets/77529419/9d36341e-f168-4b4c-bc6e-08d1bccad022)
+
+![Screenshot 2024-02-01 091910](https://github.com/kanugurajesh/LearnForge/assets/77529419/cd861ca3-0be2-42cb-9079-d6823b6b0d66)
+
+![Screenshot 2024-02-01 094242](https://github.com/kanugurajesh/LearnForge/assets/77529419/7e1ec59f-e73d-49a2-8568-ecf2c0c512b5)
+
+![Screenshot 2024-02-01 100259](https://github.com/kanugurajesh/LearnForge/assets/77529419/85152c9f-190f-4662-b430-1637889b2524)
+
+![Screenshot 2024-02-01 100317](https://github.com/kanugurajesh/LearnForge/assets/77529419/fd34b6f7-90ad-413a-b31b-f57eecf4e67e)
+
+![Screenshot 2024-02-01 100339](https://github.com/kanugurajesh/LearnForge/assets/77529419/109f6714-7a3b-43aa-ae5e-21498b8f5189)
+
+![Screenshot 2024-02-01 100345](https://github.com/kanugurajesh/LearnForge/assets/77529419/fddb7191-05e5-4486-8e9e-9bc4c350e460)
+
+![Screenshot 2024-02-01 100357](https://github.com/kanugurajesh/LearnForge/assets/77529419/85f7e346-b6a2-46d5-bd15-b220f8fa6030)
+
+![Screenshot 2024-02-01 100414](https://github.com/kanugurajesh/LearnForge/assets/77529419/62a958a8-65e6-45d9-8f7c-e31c98983eda)
+
+![Screenshot 2024-02-01 100729](https://github.com/kanugurajesh/LearnForge/assets/77529419/ad286cf2-725f-45de-b4d9-57ed00f861c2)
+
+![Screenshot 2024-02-01 100738](https://github.com/kanugurajesh/LearnForge/assets/77529419/c769ab21-d6b6-43c1-a4d5-ddc65f9635e1)
+
+![Screenshot 2024-02-01 100743](https://github.com/kanugurajesh/LearnForge/assets/77529419/cc73e06b-8d7a-416c-bb13-e9ef7ad885b4)
+
+![Screenshot 2024-02-01 100750](https://github.com/kanugurajesh/LearnForge/assets/77529419/b142db61-4cbe-4de4-af53-8ca507d50bb8)
+
+![Screenshot 2024-02-01 101125](https://github.com/kanugurajesh/LearnForge/assets/77529419/ddc2dc6f-083b-4cbe-ba97-50b948c73ef2)
+
+![Screenshot 2024-02-01 101143](https://github.com/kanugurajesh/LearnForge/assets/77529419/8e20eaed-d886-436f-860e-9641487d0c6f)
+
+![Screenshot 2024-02-01 101111](https://github.com/kanugurajesh/LearnForge/assets/77529419/c5d8dc26-cb2a-46f0-8ead-8530c149cc3f)
+
 ## Admin Panel
 
 Learnforge as an admin panel which helps to publish more data into the platform and change it's personalized tests. This makes LearnForge dynamic.
