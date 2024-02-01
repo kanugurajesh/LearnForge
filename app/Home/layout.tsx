@@ -38,7 +38,7 @@ export default function HomeLayout({
                     <div className={`flex gap-8 items-center ${styles.menubar} ${showMenu ? styles.click : ''}`}>
                         <ul className='flex gap-5'>
                             <li>
-                                <Link href="/Home" className={`${styles.a}`}>Home</Link>
+                                <Link href="/Imagen" className={`${styles.a}`}>Imagen</Link>
                             </li>
                             <li>
                                 <Link href="/Imagine" className={`${styles.a}`}>Imagine</Link>
