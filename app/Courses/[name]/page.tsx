@@ -296,7 +296,7 @@ export default function Page({ params }: { params: { name: string } }) {
             </>
           )}
           <h1 className="text-1xl font-bold mt-1">
-            Based on the personality test we are creating a response to diagnose{" "}
+            Based on the performance test we are creating a personalized learning path with career choices in {" "}
             <span className="text-red-500">{name}</span>
           </h1>
           <Card
