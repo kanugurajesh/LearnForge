@@ -64,113 +64,113 @@ export default function Career() {
       <Toaster />
       <div className={`${styles.imageContainer}`}>
         <Image
-          src="/icons/anger.png"
-          alt="Anger"
+          src="/icons/html5.svg"
+          alt="html5"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/anxiety.png"
-          alt="Anxiety"
+          src="/icons/css3.svg"
+          alt="css3"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/bipolar.png"
-          alt="Bipolar"
+          src="/icons/javascript.svg"
+          alt="javascript"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/depression.png"
-          alt="Depression"
+          src="/icons/typescript.svg"
+          alt="typescript"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/weight-loss.png"
-          alt="WeightLoss"
+          src="/icons/mongodb.svg"
+          alt="mongodb"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/loneliness.png"
-          alt="Loneliness"
+          src="/icons/reactjs.svg"
+          alt="reactjs"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/fear.png"
-          alt="Fear"
+          src="/icons/express.svg"
+          alt="express"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/insomnia.png"
-          alt="Insomnia"
+          src="/icons/tailwindcss.svg"
+          alt="tailwindcss"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/listen.png"
-          alt="HearingVoices"
+          src="/icons/nextjs.svg"
+          alt="nextjs"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/panic-attack.png"
-          alt="PanicAttack"
+          src="/icons/azure.svg"
+          alt="azure"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/paranoia.png"
-          alt="Paranoia"
+          src="/icons/devops.svg"
+          alt="devops"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/phobia.png"
-          alt="Phobia"
+          src="/icons/github.svg"
+          alt="github"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/psychosis.png"
-          alt="Psychosis"
+          src="/icons/git.svg"
+          alt="git"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/schizophrenia.png"
-          alt="Schizophrenia"
+          src="/icons/docker.svg"
+          alt="docker"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/self-confidence.png"
-          alt="SelfConfidence"
+          src="/icons/graphql.svg"
+          alt="graphql"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/self-harm.png"
-          alt="SelfHarm"
+          src="/icons/kubernetes.svg"
+          alt="kubernetes"
           width={80}
           height={80}
           onClick={handleClick}
