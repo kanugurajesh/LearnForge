@@ -1,0 +1,18 @@
+export const data = {
+    "html5":"Explains what anger is, and how to deal with it in a constructive and healthy way.",
+    "css3": "Explains anxiety and panic attacks, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "javascript": "Explains what bipolar disorder is, what kinds of treatment are available, and how you can help yourself cope. Also provides guidance on what friends and family can do to help.",
+    "typescript": "Explains depression, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "mongodb": "Explains eating problems, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "reactjs": "Git is a version control system that allows you to track changes to files and coordinate work on those files among multiple people.",
+    "express": "Explains loneliness, giving practical suggestions for what you can do and where you can go for support.",
+    "tailwindcss": "Explains insomnia and other sleep problems, giving practical suggestions for what you can do and where you can go for support.",
+    "nextjs": "Explains what it is like to hear voices, where to go for help if you need it, and what others can do to support someone who is struggling with hearing voices.",
+    "azure": "Explains what panic attacks are, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "devops": "Explains paranoia, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "github": "Explains phobias, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "git": "Explains what psychosis is, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "docker": "Explains schizophrenia, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.",
+    "graphql": "Explains how to increase your self-esteem, giving practical suggestions for what you can do and where you can go for support.",
+    "kubernetes": "Explains self-harm, including possible causes and how you can access treatment and support. Includes tips for helping yourself, and guidance for friends and family.", 
+}
