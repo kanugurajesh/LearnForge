@@ -42,6 +42,9 @@ I have integrated the following AI-powered resources into the application to pro
 - Swap Image Ai
 - Contact Form
 - Secure Authentication
+- Notification System
+- Dynamic Tests
+- Admin Panel
 
 ## Admin Panel
 
