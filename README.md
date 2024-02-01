@@ -10,7 +10,7 @@ LearnForge is a comprehensive educational solution designed to revolutionize the
 
 ## Problem Statement 🎓🕹️
 
-Many students face challenges such as a lack of access to quality education resources or teachers who may not effectively address their thirst for knowledge. In some cases, students may not even have access to education at all.
+Many students face challenges such as a lack of access to quality education resources or teachers who may not effectively address their thirst for knowledge. In some cases, students may not even have access to education at all. LearnForge is integrated with gamification features which makes learning engaging and fun.
 
 ## Solution Statement 🚀🧠
 
@@ -63,15 +63,19 @@ If you encounter any issues or have feedback, please open an issue on our [GitHu
 - Replicate
 - Markdown
 - Vercel
+- Python
+- Streamlit
 - Stable Diffusion
 - Resend
 - Giphy
 - React
 
-## 🔗 Links
+## 🌐 Socials:
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rajeshportfolio.me/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/exploringengin1)
+[![youtube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@RajeshCoder)
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCK8JZ6oQY32SQO3ohLWkuxw)
   
 ## Authors
 
