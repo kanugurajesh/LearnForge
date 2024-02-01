@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What does JSX stand for in ReactJS?",
-        "options": [
-          "JavaScript XML",
-          "Java Syntax Extension",
-          "XML Script",
-          "JS Extension"
-        ],
-        "correctOption": "JavaScript XML"
-      },
-      {
-        "question": "In React, what is the purpose of state?",
-        "options": [
-          "To store and manage data that can change over time",
-          "To declare static variables",
-          "To define the structure of components",
-          "To handle routing in a React application"
-        ],
-        "correctOption": "To store and manage data that can change over time"
-      },
-      {
-        "question": "What is the significance of the 'render' method in a React component?",
-        "options": [
-          "It defines the initial state of the component",
-          "It is responsible for rendering the component's UI",
-          "It handles asynchronous operations",
-          "It is used for defining PropTypes"
-        ],
-        "correctOption": "It is responsible for rendering the component's UI"
-      },
-      {
-        "question": "How can you pass data from a parent component to a child component in React?",
-        "options": [
-          "Using props",
-          "Using state",
-          "Using context",
-          "Using refs"
-        ],
-        "correctOption": "Using props"
-      },
-      {
-        "question": "What is the purpose of the 'componentDidMount' lifecycle method in React?",
-        "options": [
-          "To update the component's state",
-          "To perform actions after the component has mounted",
-          "To handle component unmounting",
-          "To define component propTypes"
-        ],
-        "correctOption": "To perform actions after the component has mounted"
-      },
-      {
-        "question": "Which hook is used for performing side effects in a functional component?",
-        "options": [
-          "useEffect",
-          "useCallback",
-          "useState",
-          "useReducer"
-        ],
-        "correctOption": "useEffect"
-      },
-      {
-        "question": "What is React Router used for?",
-        "options": [
-          "To manage state in a React application",
-          "To handle HTTP requests",
-          "To create navigation in a React application",
-          "To define Redux actions"
-        ],
-        "correctOption": "To create navigation in a React application"
-      },
-      {
-        "question": "What is the purpose of the 'key' prop in React when rendering lists of elements?",
-        "options": [
-          "To specify the order of elements in the list",
-          "To provide a unique identifier for each list item",
-          "To define the style for list items",
-          "To control the visibility of list items"
-        ],
-        "correctOption": "To provide a unique identifier for each list item"
-      },
-      {
-        "question": "In React, what is a controlled component?",
-        "options": [
-          "A component that is directly manipulated by the DOM",
-          "A component that manages its own state internally",
-          "A component that receives data through props and notifies changes via callbacks",
-          "A component that uses Redux for state management"
-        ],
-        "correctOption": "A component that receives data through props and notifies changes via callbacks"
-      },
-      {
-        "question": "What is the purpose of React Fragments?",
-        "options": [
-          "To create reusable components",
-          "To group multiple elements without adding extra nodes to the DOM",
-          "To define global styles for a React application",
-          "To handle form submissions in React"
-        ],
-        "correctOption": "To group multiple elements without adding extra nodes to the DOM"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself using React.js for building user interfaces in your projects?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your React.js knowledge and UI development practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with React.js+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use React.js in your projects?",
+      "options": [
+        "Component-based architecture for modular development+1",
+        "Efficient virtual DOM for optimized rendering+2",
+        "State management with hooks and context API+3",
+        "Curiosity and exploration of React.js+0"
+      ],
+      "correctOption": "Curiosity and exploration of React.js"
+    },
+    {
+      "question": "How would you describe your expertise level in building user interfaces with React.js?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new React.js features, libraries, and best practices for UI development?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your React.js knowledge?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully developing user interfaces with React.js?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in React.js-related workshops or sought professional certifications?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of React.js on your project's UI development, reusability, and overall user experience?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that React.js is a powerful and efficient library for building modern and interactive user interfaces?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}

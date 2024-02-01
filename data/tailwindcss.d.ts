@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What is the primary purpose of Tailwind CSS in web development?",
-        "options": [
-          "Handling server-side rendering",
-          "Building user interfaces",
-          "Managing database operations",
-          "Creating web servers and APIs"
-        ],
-        "correctOption": "Building user interfaces"
-      },
-      {
-        "question": "How can you apply styles to HTML elements in Tailwind CSS?",
-        "options": [
-          "By using inline styles",
-          "By writing custom CSS files",
-          "By using the app.style() method",
-          "By applying pre-defined utility classes"
-        ],
-        "correctOption": "By applying pre-defined utility classes"
-      },
-      {
-        "question": "In Tailwind CSS, what are utility classes?",
-        "options": [
-          "Classes that provide server-side functionality",
-          "Classes that define the structure of React components",
-          "Classes that encapsulate database queries",
-          "Classes that apply a single, specific styling property"
-        ],
-        "correctOption": "Classes that apply a single, specific styling property"
-      },
-      {
-        "question": "How does Tailwind CSS handle responsive design?",
-        "options": [
-          "By using media queries in a separate CSS file",
-          "By providing responsive utility classes",
-          "By relying on server-side rendering for responsiveness",
-          "By using JavaScript functions for responsive behavior"
-        ],
-        "correctOption": "By providing responsive utility classes"
-      },
-      {
-        "question": "What is the purpose of the 'purge' feature in Tailwind CSS?",
-        "options": [
-          "To remove unused styles from the final production build",
-          "To automatically add vendor prefixes to styles",
-          "To minify the CSS output for better performance",
-          "To handle form submissions in Tailwind CSS"
-        ],
-        "correctOption": "To remove unused styles from the final production build"
-      },
-      {
-        "question": "How can you customize the default styles in Tailwind CSS?",
-        "options": [
-          "By directly modifying the core library files",
-          "By using a separate configuration file (tailwind.config.js)",
-          "By creating a custom webpack configuration",
-          "By applying inline styles with the !important flag"
-        ],
-        "correctOption": "By using a separate configuration file (tailwind.config.js)"
-      },
-      {
-        "question": "What is the purpose of the 'hover:' and 'focus:' prefixes in Tailwind CSS classes?",
-        "options": [
-          "To define styles for elements in a specific state",
-          "To handle server-side rendering events",
-          "To create animation effects in React components",
-          "To manage routing in a Tailwind CSS application"
-        ],
-        "correctOption": "To define styles for elements in a specific state"
-      },
-      {
-        "question": "In Tailwind CSS, what is the 'dark:' mode used for?",
-        "options": [
-          "To handle dark mode in React components",
-          "To define global styles for a Tailwind CSS application",
-          "To add shadows and depth to elements",
-          "To apply dark styles to elements based on user preferences"
-        ],
-        "correctOption": "To apply dark styles to elements based on user preferences"
-      },
-      {
-        "question": "How can you include third-party plugins in Tailwind CSS?",
-        "options": [
-          "By importing external CSS files",
-          "By using the 'tailwind-plugins' npm package",
-          "By extending the core Tailwind CSS library",
-          "By including plugins in the 'tailwind.config.js' file"
-        ],
-        "correctOption": "By including plugins in the 'tailwind.config.js' file"
-      },
-      {
-        "question": "What is the purpose of the '@apply' directive in Tailwind CSS?",
-        "options": [
-          "To apply styles inline within HTML files",
-          "To include external JavaScript files",
-          "To extend utility classes",
-          "To compose and apply complex utility classes in a separate CSS file"
-        ],
-        "correctOption": "To compose and apply complex utility classes in a separate CSS file"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself using Tailwind CSS for styling and design in your projects?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your Tailwind CSS knowledge and styling practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with Tailwind CSS+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use Tailwind CSS in your projects?",
+      "options": [
+        "Rapid and consistent styling using utility classes+1",
+        "Customization and configuration flexibility+2",
+        "Responsive design with built-in responsive utilities+3",
+        "Curiosity and exploration of Tailwind CSS+0"
+      ],
+      "correctOption": "Curiosity and exploration of Tailwind CSS"
+    },
+    {
+      "question": "How would you describe your expertise level in using Tailwind CSS for styling and design?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new Tailwind CSS features, plugins, and best practices for efficient styling?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your Tailwind CSS styling skills?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully styling and designing with Tailwind CSS?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in Tailwind CSS-related workshops or sought professional certifications?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of Tailwind CSS on your project's styling consistency, development speed, and overall design?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that Tailwind CSS is an efficient and effective framework for modern and responsive web styling?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}

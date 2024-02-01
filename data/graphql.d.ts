@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What is the primary role of GraphQL in modern API development?",
-        "options": [
-          "Managing code repositories",
-          "Automating software deployment",
-          "Facilitating collaboration among development teams",
-          "Defining a flexible and efficient way to query and manipulate data"
-        ],
-        "correctOption": "Defining a flexible and efficient way to query and manipulate data"
-      },
-      {
-        "question": "How can you execute a GraphQL query for fetching data from a server?",
-        "options": [
-          "By configuring build tasks in Visual Studio Code",
-          "By writing custom PowerShell scripts",
-          "By using the GitHub Actions YAML pipeline syntax",
-          "By sending a POST request to the GraphQL endpoint with the query in the body"
-        ],
-        "correctOption": "By sending a POST request to the GraphQL endpoint with the query in the body"
-      },
-      {
-        "question": "In GraphQL, what is the purpose of the 'schema'?",
-        "options": [
-          "To control access to release environments",
-          "To enforce coding standards in the repository",
-          "To add delay between stages in a pipeline",
-          "To define the types and relationships available in the API"
-        ],
-        "correctOption": "To define the types and relationships available in the API"
-      },
-      {
-        "question": "How does GraphQL handle over-fetching and under-fetching of data compared to traditional REST APIs?",
-        "options": [
-          "By using GraphQL repositories hosted on GraphQL Hub",
-          "By relying on external version control systems",
-          "By manually managing data in local directories",
-          "By allowing clients to request only the data they need, reducing over-fetching and under-fetching"
-        ],
-        "correctOption": "By allowing clients to request only the data they need, reducing over-fetching and under-fetching"
-      },
-      {
-        "question": "What is the purpose of the 'introspection' feature in GraphQL?",
-        "options": [
-          "To manually inspect API configurations before deployment",
-          "To combine configurations from different APIs",
-          "To enforce coding conventions during the build process",
-          "To allow clients to query the schema and discover types and capabilities dynamically"
-        ],
-        "correctOption": "To allow clients to query the schema and discover types and capabilities dynamically"
-      },
-      {
-        "question": "How can you implement real-time functionality in a GraphQL API?",
-        "options": [
-          "By scheduling queries at fixed intervals",
-          "By using webhooks to monitor data changes",
-          "By manually initiating queries in the GraphQL portal",
-          "By using subscriptions to receive real-time updates in response to data changes"
-        ],
-        "correctOption": "By using subscriptions to receive real-time updates in response to data changes"
-      },
-      {
-        "question": "In GraphQL, what is the purpose of 'resolvers'?",
-        "options": [
-          "To store and share binary dependencies",
-          "To create graphical representations of API queries",
-          "To generate API documentation",
-          "To define how to fetch and return data for each field in the schema"
-        ],
-        "correctOption": "To define how to fetch and return data for each field in the schema"
-      },
-      {
-        "question": "What is the role of 'mutations' in a GraphQL workflow?",
-        "options": [
-          "To establish secure connections to external APIs",
-          "To enable communication between GraphQL services",
-          "To integrate third-party authentication providers",
-          "To modify data on the server, such as creating, updating, or deleting records"
-        ],
-        "correctOption": "To modify data on the server, such as creating, updating, or deleting records"
-      },
-      {
-        "question": "How can you perform error handling in GraphQL?",
-        "options": [
-          "By configuring error policies in the GraphQL portal",
-          "By using external error analysis tools",
-          "By executing 'graphql remove'",
-          "By letting the server return a response with an 'errors' field for detailed error information"
-        ],
-        "correctOption": "By letting the server return a response with an 'errors' field for detailed error information"
-      },
-      {
-        "question": "What is the purpose of the '.graphqlconfig' file in a GraphQL project?",
-        "options": [
-          "To define infrastructure as code",
-          "To manage and track work items, sprints, and backlogs",
-          "To specify files and directories to be ignored by GraphQL",
-          "To configure settings related to GraphQL development, such as schema and endpoint information"
-        ],
-        "correctOption": "To configure settings related to GraphQL development, such as schema and endpoint information"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself using GraphQL for querying and manipulating data in your applications?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your GraphQL knowledge and practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with GraphQL+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use GraphQL in your projects?",
+      "options": [
+        "Efficient data fetching with precise queries+1",
+        "Flexibility and avoiding over-fetching or under-fetching data+2",
+        "Creating a unified API for diverse data sources+3",
+        "Curiosity and exploration of GraphQL+0"
+      ],
+      "correctOption": "Curiosity and exploration of GraphQL"
+    },
+    {
+      "question": "How would you describe your expertise level in implementing GraphQL in applications?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new GraphQL features and best practices for data querying and manipulation?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your GraphQL knowledge?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully implementing GraphQL in a project?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in GraphQL-related workshops or sought professional certifications?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of GraphQL on your project's data-fetching efficiency and flexibility?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that understanding and implementing GraphQL is essential for modern API development?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}

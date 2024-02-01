@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What is Express.js used for in a Node.js application?",
-        "options": [
-          "Handling database operations",
-          "Server-side rendering",
-          "Building user interfaces",
-          "Creating web servers and APIs"
-        ],
-        "correctOption": "Creating web servers and APIs"
-      },
-      {
-        "question": "How can you handle HTTP GET requests in Express.js?",
-        "options": [
-          "Using the app.post() method",
-          "Using the app.get() method",
-          "Using the app.route() method",
-          "Using the app.use() method"
-        ],
-        "correctOption": "Using the app.get() method"
-      },
-      {
-        "question": "In Express.js, what is middleware and what is its purpose?",
-        "options": [
-          "Middleware is a template engine for rendering views",
-          "Middleware is a database management tool",
-          "Middleware is a way to handle HTTP requests and responses",
-          "Middleware is used for state management in React"
-        ],
-        "correctOption": "Middleware is a way to handle HTTP requests and responses"
-      },
-      {
-        "question": "What does the term 'routing' mean in the context of Express.js?",
-        "options": [
-          "Managing traffic flow on a network",
-          "Defining the structure of a React component",
-          "Handling different HTTP methods in an application",
-          "Directing client requests to specific server-side functions"
-        ],
-        "correctOption": "Directing client requests to specific server-side functions"
-      },
-      {
-        "question": "How can you handle URL parameters in Express.js?",
-        "options": [
-          "By using the req.query object",
-          "By using the req.body object",
-          "By using the req.params object",
-          "By using the req.headers object"
-        ],
-        "correctOption": "By using the req.params object"
-      },
-      {
-        "question": "What is Express.js middleware 'body-parser' used for?",
-        "options": [
-          "Handling HTTP cookies",
-          "Parsing incoming request bodies",
-          "Validating form submissions",
-          "Managing session data"
-        ],
-        "correctOption": "Parsing incoming request bodies"
-      },
-      {
-        "question": "What is the purpose of the 'next' function in Express.js middleware?",
-        "options": [
-          "To define the next route in the application",
-          "To skip the current middleware and move to the next one",
-          "To handle errors in the middleware",
-          "To define the next available server in a cluster"
-        ],
-        "correctOption": "To skip the current middleware and move to the next one"
-      },
-      {
-        "question": "How can you set up a static file server using Express.js?",
-        "options": [
-          "Using the app.static() method",
-          "Using the app.file() method",
-          "Using the app.staticFile() method",
-          "Using the express.static() middleware"
-        ],
-        "correctOption": "Using the express.static() middleware"
-      },
-      {
-        "question": "What is Express.js Router and how is it used?",
-        "options": [
-          "It is a middleware for handling HTTP requests",
-          "It is a template engine for rendering views",
-          "It is a way to define global styles for a React application",
-          "It is used for creating modular route handlers in an application"
-        ],
-        "correctOption": "It is used for creating modular route handlers in an application"
-      },
-      {
-        "question": "In Express.js, what does the term 'view engine' refer to?",
-        "options": [
-          "A tool for managing database queries",
-          "A module for handling HTTP responses",
-          "A template engine for rendering views",
-          "A middleware for parsing request bodies"
-        ],
-        "correctOption": "A template engine for rendering views"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself using Express.js in your web development projects?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your Express.js knowledge and practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with Express.js+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use Express.js in your projects?",
+      "options": [
+        "Rapid development and simplicity+1",
+        "Building robust and scalable APIs+2",
+        "Middleware and routing flexibility+3",
+        "Curiosity and exploration of Express.js+0"
+      ],
+      "correctOption": "Curiosity and exploration of Express.js"
+    },
+    {
+      "question": "How would you describe your expertise level in developing applications with Express.js?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new middleware and best practices for Express.js development?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your Express.js knowledge?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully building applications using Express.js?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in Express.js-related workshops or sought professional certifications?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of Express.js on your project's backend development efficiency and performance?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that mastering Express.js is essential for building modern web applications?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}

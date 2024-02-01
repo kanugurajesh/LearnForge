@@ -61,7 +61,7 @@ export default function Page({ params }: { params: { name: string } }) {
       body: JSON.stringify({
         userPrompt: `hello I have obtained a score of ${
           30 - score
-        }/${30} in ${name} related issue based on my performance I would like to get a cure for ${name} can you suggest me a path? The lesser the score the better the precautions and cure the person should take.`,
+        }/${30} in ${name} related to my performance test in ${name} based on it can you tell me personalized learning path to learn ${name}.`,
       }),
     });
 

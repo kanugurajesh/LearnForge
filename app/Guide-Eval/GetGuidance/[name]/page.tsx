@@ -58,7 +58,7 @@ export default function Page({ params }: { params: { name: string } }) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                userPrompt: `can you tell me what is ${name} and what is the possible cure for it?`,
+                userPrompt: `can you tell me how can i learn ${name} and what are the career paths in it?`,
             }),
         });
 

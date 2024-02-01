@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What is the primary purpose of GitHub in software development?",
-        "options": [
-          "Managing code repositories",
-          "Automating software deployment",
-          "Facilitating collaboration among development teams",
-          "Monitoring application performance"
-        ],
-        "correctOption": "Facilitating collaboration among development teams"
-      },
-      {
-        "question": "How can you define a CI/CD pipeline in GitHub?",
-        "options": [
-          "By configuring build tasks in Visual Studio Code",
-          "By writing custom PowerShell scripts",
-          "By using the GitHub Actions YAML pipeline syntax",
-          "By manually triggering deployments in the GitHub portal"
-        ],
-        "correctOption": "By using the GitHub Actions YAML pipeline syntax"
-      },
-      {
-        "question": "In GitHub, what is the purpose of 'Release Gates'?",
-        "options": [
-          "To control access to release environments",
-          "To enforce coding standards in the repository",
-          "To add delay between stages in a pipeline",
-          "To enable automatic validation before progressing to the next stage"
-        ],
-        "correctOption": "To enable automatic validation before progressing to the next stage"
-      },
-      {
-        "question": "How does GitHub handle version control for source code?",
-        "options": [
-          "By using Git repositories hosted on GitHub",
-          "By relying on external version control systems",
-          "By manually managing code versions in local directories",
-          "By storing code only in local servers without versioning"
-        ],
-        "correctOption": "By using Git repositories hosted on GitHub"
-      },
-      {
-        "question": "What is the purpose of the 'Build Agents' in GitHub workflows?",
-        "options": [
-          "To manually inspect code changes before building",
-          "To execute build and deployment tasks on hosted or private machines",
-          "To enforce coding conventions during the build process",
-          "To automatically fix code issues before deployment"
-        ],
-        "correctOption": "To execute build and deployment tasks on hosted or private machines"
-      },
-      {
-        "question": "How can you trigger a build in GitHub when changes are pushed to a specific branch?",
-        "options": [
-          "By scheduling builds at fixed intervals",
-          "By using webhooks to monitor repository changes",
-          "By manually initiating builds in the GitHub portal",
-          "By configuring branch policies in the repository"
-        ],
-        "correctOption": "By configuring branch policies in the repository"
-      },
-      {
-        "question": "In GitHub, what is the purpose of 'Artifacts'?",
-        "options": [
-          "To store and share binary dependencies",
-          "To create graphical representations of deployment pipelines",
-          "To generate code documentation",
-          "To manage access control for DevOps projects"
-        ],
-        "correctOption": "To store and share binary dependencies"
-      },
-      {
-        "question": "What is the role of 'Service Connections' in GitHub?",
-        "options": [
-          "To establish secure connections to external APIs",
-          "To enable communication between GitHub services",
-          "To integrate third-party authentication providers",
-          "To define connections to external services like GitHub Actions or container registry"
-        ],
-        "correctOption": "To define connections to external services like GitHub Actions or container registry"
-      },
-      {
-        "question": "How can you enforce code quality checks in a GitHub workflow?",
-        "options": [
-          "By configuring policies in the GitHub portal",
-          "By using external code analysis tools",
-          "By disabling automatic builds",
-          "By relying solely on manual code reviews"
-        ],
-        "correctOption": "By using external code analysis tools"
-      },
-      {
-        "question": "What is the purpose of the 'GitHub Issues' feature in GitHub?",
-        "options": [
-          "To define infrastructure as code",
-          "To manage and track work items, sprints, and backlogs",
-          "To monitor application logs",
-          "To create and manage virtual machines in the cloud"
-        ],
-        "correctOption": "To manage and track work items, sprints, and backlogs"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself using GitHub for hosting and collaborating on your Git repositories?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your GitHub knowledge and repository collaboration practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with GitHub+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use GitHub in your projects?",
+      "options": [
+        "Centralized code hosting and accessibility+1",
+        "Collaborative development through pull requests+2",
+        "Issue tracking and project management capabilities+3",
+        "Curiosity and exploration of GitHub features+0"
+      ],
+      "correctOption": "Curiosity and exploration of GitHub"
+    },
+    {
+      "question": "How would you describe your expertise level in using GitHub for repository management and collaboration?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new GitHub workflows and best practices for collaborative development?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your GitHub knowledge?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully managing and collaborating on projects using GitHub?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in GitHub-related workshops or sought certifications related to GitHub workflows?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of GitHub on your project's collaboration, code review, and version control?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that proficiency in using GitHub is essential for effective and collaborative software development?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}

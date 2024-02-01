@@ -1,104 +1,105 @@
 export const data = {
     "questions": [
-        {
-            "question": "What does JS stand for?",
-            "options": [
-                "JavaScript",
-                "Java Source",
-                "Joomla Script",
-                "JustScript"
-            ],
-            "correctOption": "JavaScript"
-        },
-        {
-            "question": "Which keyword is used to declare a variable in JavaScript?",
-            "options": [
-                "var",
-                "variable",
-                "int",
-                "declare"
-            ],
-            "correctOption": "var"
-        },
-        {
-            "question": "What is the purpose of the 'typeof' operator in JavaScript?",
-            "options": [
-                "To check the type of a variable",
-                "To create a new type",
-                "To compare types",
-                "To convert a variable to a different type"
-            ],
-            "correctOption": "To check the type of a variable"
-        },
-        {
-            "question": "Which loop is used for iterating over the properties of an object in JavaScript?",
-            "options": [
-                "for-in loop",
-                "while loop",
-                "do-while loop",
-                "for loop"
-            ],
-            "correctOption": "for-in loop"
-        },
-        {
-            "question": "What is the purpose of the 'this' keyword in JavaScript?",
-            "options": [
-                "To refer to the current object",
-                "To create a new object",
-                "To refer to the global object",
-                "To declare a function"
-            ],
-            "correctOption": "To refer to the current object"
-        },
-        {
-            "question": "Which method is used to add a new element to the end of an array in JavaScript?",
-            "options": [
-                "push()",
-                "append()",
-                "addToEnd()",
-                "insertAtEnd()"
-            ],
-            "correctOption": "push()"
-        },
-        {
-            "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
-            "options": [
-                "To declare a function",
-                "To handle exceptions",
-                "To create a loop",
-                "To define a variable"
-            ],
-            "correctOption": "To handle exceptions"
-        },
-        {
-            "question": "Which operator is used for strict equality in JavaScript?",
-            "options": [
-                "===",
-                "==",
-                "=*=",
-                "!=="
-            ],
-            "correctOption": "==="
-        },
-        {
-            "question": "What is the purpose of the 'setTimeout' function in JavaScript?",
-            "options": [
-                "To set a timeout for a function to execute",
-                "To define a style timeout",
-                "To create a delay in the document flow",
-                "To set a timeout for AJAX requests"
-            ],
-            "correctOption": "To set a timeout for a function to execute"
-        },
-        {
-            "question": "Which built-in object is used for handling and manipulating dates in JavaScript?",
-            "options": [
-                "Date",
-                "Time",
-                "Clock",
-                "Calendar"
-            ],
-            "correctOption": "Date"
-        }
+      {
+        "question": "How often do you find yourself using JavaScript in your web development projects?",
+        "options": [
+          "Rarely+0",
+          "Occasionally+1",
+          "Frequently+2",
+          "Almost always+3"
+        ],
+        "correctOption": "Frequently"
+      },
+      {
+        "question": "Do you tend to share your JavaScript knowledge and practices with others or prefer to keep it to yourself?",
+        "options": [
+          "Share with others+3",
+          "Keep to myself+1",
+          "Varies depending on the situation+2",
+          "I'm not familiar with JavaScript+0"
+        ],
+        "correctOption": "Share with others"
+      },
+      {
+        "question": "What motivates you the most to use JavaScript in your projects?",
+        "options": [
+          "Client-side interactivity and dynamic content+1",
+          "Server-side development with Node.js+2",
+          "Asynchronous programming and handling events+3",
+          "Curiosity and exploration of JavaScript+0"
+        ],
+        "correctOption": "Curiosity and exploration of JavaScript"
+      },
+      {
+        "question": "How would you describe your expertise level in using JavaScript for web development?",
+        "options": [
+          "Beginner+0",
+          "Intermediate+1",
+          "Advanced+2",
+          "Expert+3"
+        ],
+        "correctOption": "Intermediate"
+      },
+      {
+        "question": "Do you actively seek new JavaScript features, libraries, and best practices?",
+        "options": [
+          "Yes, regularly+0",
+          "Sometimes+1",
+          "Rarely+2",
+          "No, not at all+3"
+        ],
+        "correctOption": "Yes, regularly"
+      },
+      {
+        "question": "Have others sought your advice or expressed appreciation for your JavaScript knowledge?",
+        "options": [
+          "Yes, frequently+3",
+          "Occasionally+2",
+          "Rarely+1",
+          "No, never+0"
+        ],
+        "correctOption": "Occasionally"
+      },
+      {
+        "question": "Do you feel a sense of accomplishment after successfully implementing complex functionality using JavaScript?",
+        "options": [
+          "Always+0",
+          "Sometimes+1",
+          "Rarely+2",
+          "Never+3"
+        ],
+        "correctOption": "Always"
+      },
+      {
+        "question": "Have you participated in JavaScript-related workshops or sought professional certifications?",
+        "options": [
+          "Yes+0",
+          "Considering it+1",
+          "No, not yet+2",
+          "No, and I don't plan to+3"
+        ],
+        "correctOption": "Yes"
+      },
+      {
+        "question": "How would you rate the impact of JavaScript on your project's interactivity, functionality, and overall user experience?",
+        "options": [
+          "Low impact+0",
+          "Moderate impact+1",
+          "High impact+2",
+          "Very high impact+3"
+        ],
+        "correctOption": "High impact"
+      },
+      {
+        "question": "Do you believe that staying updated with JavaScript advancements is essential for modern web development?",
+        "options": [
+          "Strongly agree+0",
+          "Agree+1",
+          "Neutral+2",
+          "Disagree+3"
+        ],
+        "correctOption": "Strongly agree"
+      }
     ]
-}
+  }
+  

@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What is the primary role of Kubernetes in modern container orchestration?",
-        "options": [
-          "Managing code repositories",
-          "Automating software deployment",
-          "Facilitating collaboration among development teams",
-          "Orchestrating and managing containerized applications"
-        ],
-        "correctOption": "Orchestrating and managing containerized applications"
-      },
-      {
-        "question": "How can you deploy a Kubernetes pod with a specific image?",
-        "options": [
-          "By configuring build tasks in Visual Studio Code",
-          "By writing custom PowerShell scripts",
-          "By using the GitHub Actions YAML pipeline syntax",
-          "By creating a YAML file with the pod definition and using 'kubectl apply'"
-        ],
-        "correctOption": "By creating a YAML file with the pod definition and using 'kubectl apply'"
-      },
-      {
-        "question": "In Kubernetes, what is the purpose of a 'Deployment' resource?",
-        "options": [
-          "To control access to release environments",
-          "To enforce coding standards in the repository",
-          "To add delay between stages in a pipeline",
-          "To manage the deployment and scaling of applications"
-        ],
-        "correctOption": "To manage the deployment and scaling of applications"
-      },
-      {
-        "question": "How does Kubernetes handle the scaling of applications?",
-        "options": [
-          "By using Kubernetes repositories hosted on Kubernetes Hub",
-          "By relying on external version control systems",
-          "By manually managing scaling in local directories",
-          "By using the Horizontal Pod Autoscaler to automatically adjust the number of pods based on metrics"
-        ],
-        "correctOption": "By using the Horizontal Pod Autoscaler to automatically adjust the number of pods based on metrics"
-      },
-      {
-        "question": "What is the purpose of the 'kubectl' command-line tool in Kubernetes?",
-        "options": [
-          "To manually inspect API configurations before deployment",
-          "To combine configurations from different Kubernetes clusters",
-          "To enforce coding conventions during the build process",
-          "To interact with and manage Kubernetes clusters from the command line"
-        ],
-        "correctOption": "To interact with and manage Kubernetes clusters from the command line"
-      },
-      {
-        "question": "How can you implement persistent storage in a Kubernetes cluster?",
-        "options": [
-          "By scheduling storage tasks at fixed intervals",
-          "By using webhooks to monitor storage changes",
-          "By manually initiating storage operations in the Kubernetes portal",
-          "By using Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)"
-        ],
-        "correctOption": "By using Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)"
-      },
-      {
-        "question": "In Kubernetes, what is the purpose of 'PodSpec'?",
-        "options": [
-          "To store and share binary dependencies",
-          "To create graphical representations of Kubernetes clusters",
-          "To generate documentation for Kubernetes manifests",
-          "To define the specification for a pod, including its containers, volumes, and configurations"
-        ],
-        "correctOption": "To define the specification for a pod, including its containers, volumes, and configurations"
-      },
-      {
-        "question": "What is the role of 'Services' in a Kubernetes cluster?",
-        "options": [
-          "To establish secure connections to external APIs",
-          "To enable communication between Kubernetes clusters",
-          "To integrate third-party authentication providers",
-          "To provide stable network endpoints to access applications running in the cluster"
-        ],
-        "correctOption": "To provide stable network endpoints to access applications running in the cluster"
-      },
-      {
-        "question": "How can you perform rolling updates in Kubernetes?",
-        "options": [
-          "By configuring update policies in the Kubernetes portal",
-          "By using external update management tools",
-          "By executing 'kubectl update'",
-          "By updating the Deployment resource with a new version and using 'kubectl apply'"
-        ],
-        "correctOption": "By updating the Deployment resource with a new version and using 'kubectl apply'"
-      },
-      {
-        "question": "What is the purpose of the 'kubeconfig' file in a Kubernetes project?",
-        "options": [
-          "To define infrastructure as code",
-          "To manage and track work items, sprints, and backlogs",
-          "To specify files and directories to be ignored by Kubernetes",
-          "To configure settings related to Kubernetes development, such as cluster and authentication information"
-        ],
-        "correctOption": "To configure settings related to Kubernetes development, such as cluster and authentication information"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself working with Kubernetes for container orchestration in your projects?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your Kubernetes knowledge and practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with Kubernetes+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use Kubernetes in your projects?",
+      "options": [
+        "Container orchestration and scaling applications+1",
+        "Microservices architecture and deployment consistency+2",
+        "Automated containerized application management+3",
+        "Curiosity and exploration of Kubernetes+0"
+      ],
+      "correctOption": "Curiosity and exploration of Kubernetes"
+    },
+    {
+      "question": "How would you describe your expertise level in deploying and managing applications with Kubernetes?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new Kubernetes features, tools, and best practices for container orchestration?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your Kubernetes knowledge?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully deploying and managing applications on a Kubernetes cluster?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in Kubernetes-related workshops or sought professional certifications?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of Kubernetes on your project's scalability, reliability, and containerized application management?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that mastering Kubernetes is essential for modern containerized application deployment?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}

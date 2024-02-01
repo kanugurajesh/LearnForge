@@ -1,105 +1,104 @@
 export const data = {
-    "questions": [
-      {
-        "question": "What is the primary purpose of Next.js in web development?",
-        "options": [
-          "Handling server-side rendering",
-          "Building user interfaces",
-          "Managing database operations",
-          "Creating web servers and APIs"
-        ],
-        "correctOption": "Handling server-side rendering"
-      },
-      {
-        "question": "How can you create dynamic routes in Next.js?",
-        "options": [
-          "By using inline styles",
-          "By writing custom CSS files",
-          "By using the app.style() method",
-          "By using brackets [ ] in the pages directory"
-        ],
-        "correctOption": "By using brackets [ ] in the pages directory"
-      },
-      {
-        "question": "In Next.js, what is the purpose of the 'getStaticProps' function?",
-        "options": [
-          "To provide server-side functionality",
-          "To define the structure of React components",
-          "To encapsulate database queries",
-          "To fetch data at build time for static site generation"
-        ],
-        "correctOption": "To fetch data at build time for static site generation"
-      },
-      {
-        "question": "How does Next.js handle client-side navigation between pages?",
-        "options": [
-          "By using media queries in a separate CSS file",
-          "By providing responsive utility classes",
-          "By relying on server-side rendering for responsiveness",
-          "By using the 'Link' component for client-side navigation"
-        ],
-        "correctOption": "By using the 'Link' component for client-side navigation"
-      },
-      {
-        "question": "What is the purpose of the 'getServerSideProps' function in Next.js?",
-        "options": [
-          "To remove unused styles from the final production build",
-          "To automatically add vendor prefixes to styles",
-          "To handle form submissions in Next.js",
-          "To fetch data on each request for server-side rendering"
-        ],
-        "correctOption": "To fetch data on each request for server-side rendering"
-      },
-      {
-        "question": "How can you customize the default configuration in Next.js?",
-        "options": [
-          "By directly modifying the core library files",
-          "By using a separate configuration file (next.config.js)",
-          "By creating a custom webpack configuration",
-          "By applying inline styles with the !important flag"
-        ],
-        "correctOption": "By using a separate configuration file (next.config.js)"
-      },
-      {
-        "question": "What is the purpose of the 'getStaticPaths' function in Next.js?",
-        "options": [
-          "To define styles for elements in a specific state",
-          "To handle server-side rendering events",
-          "To create animation effects in React components",
-          "To generate dynamic routes for static site generation"
-        ],
-        "correctOption": "To generate dynamic routes for static site generation"
-      },
-      {
-        "question": "In Next.js, what is the 'API routes' feature used for?",
-        "options": [
-          "To handle dark mode in React components",
-          "To define global styles for a Next.js application",
-          "To add shadows and depth to elements",
-          "To create serverless functions for backend functionality"
-        ],
-        "correctOption": "To create serverless functions for backend functionality"
-      },
-      {
-        "question": "How can you deploy a Next.js application?",
-        "options": [
-          "By importing external CSS files",
-          "By using the 'next-plugins' npm package",
-          "By extending the core Next.js library",
-          "By deploying to platforms like Vercel, Netlify, or AWS"
-        ],
-        "correctOption": "By deploying to platforms like Vercel, Netlify, or AWS"
-      },
-      {
-        "question": "What is the purpose of the '_app.js' file in Next.js?",
-        "options": [
-          "To apply styles inline within HTML files",
-          "To include external JavaScript files",
-          "To extend utility classes",
-          "To set up the component that wraps around pages for a consistent layout"
-        ],
-        "correctOption": "To set up the component that wraps around pages for a consistent layout"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "How often do you find yourself using Next.js for building web applications in your projects?",
+      "options": [
+        "Rarely+0",
+        "Occasionally+1",
+        "Frequently+2",
+        "Almost always+3"
+      ],
+      "correctOption": "Frequently"
+    },
+    {
+      "question": "Do you tend to share your Next.js knowledge and application development practices with others or prefer to keep it to yourself?",
+      "options": [
+        "Share with others+3",
+        "Keep to myself+1",
+        "Varies depending on the situation+2",
+        "I'm not familiar with Next.js+0"
+      ],
+      "correctOption": "Share with others"
+    },
+    {
+      "question": "What motivates you the most to use Next.js in your projects?",
+      "options": [
+        "Server-side rendering for improved performance+1",
+        "Static site generation and efficient page rendering+2",
+        "Automatic code splitting and optimized routing+3",
+        "Curiosity and exploration of Next.js+0"
+      ],
+      "correctOption": "Curiosity and exploration of Next.js"
+    },
+    {
+      "question": "How would you describe your expertise level in building web applications with Next.js?",
+      "options": [
+        "Beginner+0",
+        "Intermediate+1",
+        "Advanced+2",
+        "Expert+3"
+      ],
+      "correctOption": "Intermediate"
+    },
+    {
+      "question": "Do you actively seek new Next.js features, best practices, and optimizations for web application development?",
+      "options": [
+        "Yes, regularly+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "No, not at all+3"
+      ],
+      "correctOption": "Yes, regularly"
+    },
+    {
+      "question": "Have others sought your advice or expressed appreciation for your Next.js knowledge?",
+      "options": [
+        "Yes, frequently+3",
+        "Occasionally+2",
+        "Rarely+1",
+        "No, never+0"
+      ],
+      "correctOption": "Occasionally"
+    },
+    {
+      "question": "Do you feel a sense of accomplishment after successfully developing web applications with Next.js?",
+      "options": [
+        "Always+0",
+        "Sometimes+1",
+        "Rarely+2",
+        "Never+3"
+      ],
+      "correctOption": "Always"
+    },
+    {
+      "question": "Have you participated in Next.js-related workshops or sought professional certifications?",
+      "options": [
+        "Yes+0",
+        "Considering it+1",
+        "No, not yet+2",
+        "No, and I don't plan to+3"
+      ],
+      "correctOption": "Yes"
+    },
+    {
+      "question": "How would you rate the impact of Next.js on your project's performance, development speed, and user experience?",
+      "options": [
+        "Low impact+0",
+        "Moderate impact+1",
+        "High impact+2",
+        "Very high impact+3"
+      ],
+      "correctOption": "High impact"
+    },
+    {
+      "question": "Do you believe that Next.js is a valuable framework for building modern and performant web applications?",
+      "options": [
+        "Strongly agree+0",
+        "Agree+1",
+        "Neutral+2",
+        "Disagree+3"
+      ],
+      "correctOption": "Strongly agree"
+    }
+  ]
+}
