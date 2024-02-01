@@ -43,6 +43,15 @@ I have integrated the following AI-powered resources into the application to pro
 - Contact Form
 - Secure Authentication
 
+## Admin Panel
+
+Learnforge as an admin panel which helps to publish more data into the platform and change it's personalized tests. This makes LearnForge dynamic.
+
+```bash
+# Admin Panel Link
+https://github.com/kanugurajesh/LearnForge-Admin
+```
+
 ## Contribution Guidelines
 
 We welcome contributions to enhance and improve the llm app. If you have ideas or improvements, feel free to submit a pull request following our contribution guidelines.
