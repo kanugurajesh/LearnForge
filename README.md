@@ -38,6 +38,8 @@ I have integrated the following AI-powered resources into the application to pro
 - Image to Text Converter (enhances understanding)
 - Q/A with Gemini Pro
 - Chat with Gemini Pro
+- Image generation
+- Swap Image Ai
 - Contact Form
 - Secure Authentication
 
